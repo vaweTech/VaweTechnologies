@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex w-full flex-col items-center gap-5 sm:w-[45%] lg:w-1/3">
           <Link href="/" className="flex flex-col items-center gap-4">
             <Image
-              src="/logo2.jfif"
+              src="/logo2.jpg"
               width={100}
               height={100}
               alt="VAWE logo"
