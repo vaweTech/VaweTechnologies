@@ -127,7 +127,7 @@ export default function Navbar() {
       <div className="mx-auto flex w-full max-w-none items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-10">
         <Link href="/" className="flex items-center gap-3">
           <div className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-200 bg-white shadow">
-            <Image src="/logo2.jfif" alt="VAWE logo" width={40} height={40} className="h-10 w-10 rounded-full object-cover" />
+            <Image src="/logo2.jpg" alt="VAWE logo" width={40} height={40} className="h-10 w-10 rounded-full object-cover" />
           </div>
           <div className="leading-tight text-slate-900">
             <p className="text-lg font-bold tracking-wide">VAWE</p>
@@ -170,7 +170,7 @@ export default function Navbar() {
               <div className="mb-4 flex items-center justify-between border-b border-slate-200 pb-3">
                 <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
                   <div className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white">
-                    <Image src="/logo2.jfif" alt="VAWE logo" className="h-8 w-8 rounded-full object-cover" />
+                    <Image src="/logo2.jpg" alt="VAWE logo" className="h-8 w-8 rounded-full object-cover" />
                   </div>
                   <div className="text-slate-900">
                     <p className="text-base font-bold">VAWE</p>
